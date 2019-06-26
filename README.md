@@ -1,5 +1,5 @@
 # Natural-Language-Inference
-This repository contains implementation for an LSTM and self attention models in SNLI dataset, which is a part of final project for LUS course.
+This repository contains a PyTorch implementation for an LSTM and self attention models in SNLI dataset, which is a part of final project for LUS course. The self attention model follows this paper: A Decomposable Attention Model for Natural Language Inference https://arxiv.org/abs/1606.01933
 
 ## Project structure:
 - folder *data*: contains SNLI dataset and embedding matrices
