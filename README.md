@@ -48,5 +48,5 @@ An example for training a self attention network, use POS tags, on GPU:
 python main.py --gpu --model_type=attention --use_POS --hidden_dim=200 --max_epochs=100
 ```
 
-## Licence
+## License
 MIT
