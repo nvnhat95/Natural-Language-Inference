@@ -24,7 +24,7 @@ python main.py --download_data
 ### Preprocessing
 To preprocess data, you should determine which word embedding matrix you want to use. In default, with the data you have downloaded above, you can choose embedding matrices in one of {6B.50d, 6B.100d, 6B.200d, 6B.300d, 42B.300d} when running:
 ```
-python main.py --preprocess_data --embedding=6B.100d
+python main.py --preprocess_data --embedding=6B.300d
 ```
 This step will takes several minutes. If you want to use other embedding matrices, download from https://nlp.stanford.edu/projects/glove/ and repeat above steps.
 
